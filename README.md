@@ -7,6 +7,12 @@ Install with:
 bunx skills add mokronos/skills -s effect-setup -g -y
 ```
 
+Update all global skills:
+
+```bash
+bunx skills update -g -y
+```
+
 ## External Skills
 
 ```bash
