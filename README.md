@@ -18,4 +18,6 @@ bunx skills update -g -y
 ```bash
 bunx skills add RhysSullivan/skills -s quality-code -g -y
 bunx skills add mattpocock/skills -s zoom-out -g -y
+bunx skills add mattpocock/skills -s improve-codebase-architecture -g -y
+bunx skills add mattpocock/skills -s grill-with-docs -g -y
 ```
