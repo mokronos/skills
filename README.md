@@ -4,12 +4,6 @@
 Install with:
 
 ```bash
-bunx skills add mokronos/skills -s effect-setup -g -y
-```
-
-## Local Skills
-
-```bash
 bunx skills add mokronos/skills -s arch-check -g -y
 bunx skills add mokronos/skills -s effect -g -y
 bunx skills add mokronos/skills -s effect-setup -g -y
