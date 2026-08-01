@@ -17,6 +17,14 @@ Update all global skills:
 bunx skills update -g -y
 ```
 
+## Base Agent Instructions
+
+Copy the base agent instructions into your home directory:
+
+```bash
+cp base.AGENTS.md ~/AGENTS.md
+```
+
 ## External Skills
 
 ```bash
