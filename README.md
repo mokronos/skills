@@ -22,10 +22,11 @@ npx skills update -g -y
 
 ## Base Agent Instructions
 
-Copy the base agent instructions into your home directory:
+From the repository root, link the base agent instructions into OpenCode and Codex:
 
 ```bash
-cp base.AGENTS.md ~/AGENTS.md
+ln -sfn "$(pwd)/base.AGENTS.md" ~/.config/opencode/AGENTS.md
+ln -sfn "$(pwd)/base.AGENTS.md" ~/.codex/AGENTS.md
 ```
 
 ## External Skills
