@@ -22,14 +22,13 @@ npx skills update -g -y
 
 ## Base Agent Instructions
 
-Link the base agent instructions into OpenCode, Codex, and Claude:
+From the repository root, link the base agent instructions into OpenCode, Codex, and Claude:
 
 ```bash
-./sync-agents.sh
+ln -sfn "$(pwd)/base.AGENTS.md" ~/.config/opencode/AGENTS.md
+ln -sfn "$(pwd)/base.AGENTS.md" ~/.codex/AGENTS.md
+ln -sfn "$(pwd)/base.AGENTS.md" ~/claude/CLAUDE.md
 ```
-
-The script links `base.AGENTS.md` to `~/.config/opencode/AGENTS.md`,
-`~/.codex/AGENTS.md`, and `~/claude/CLAUDE.md`.
 
 ## External Skills
 
