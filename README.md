@@ -39,6 +39,9 @@ npx skills add mattpocock/skills -s grill-me -g -y -a opencode -a codex -a claud
 npx skills add mattpocock/skills -s grilling -g -y -a opencode -a codex -a claude-code
 npx skills add mattpocock/skills -s grill-with-docs -g -y -a opencode -a codex -a claude-code
 npx skills add mattpocock/skills -s improve-codebase-architecture -g -y -a opencode -a codex -a claude-code
+npx skills add mattpocock/skills -s retro -g -y -a opencode -a codex -a claude-code
+npx skills add mattpocock/skills -s to-spec -g -y -a opencode -a codex -a claude-code
+npx skills add mattpocock/skills -s to-tickets -g -y -a opencode -a codex -a claude-code
 npx skills add vercel-labs/skills -s find-skills -g -y -a opencode -a codex -a claude-code
 ```
 
