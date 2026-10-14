@@ -8,6 +8,7 @@ Install globally with:
 
 ```bash
 npx skills add mokronos/skills -s arch-check -g -y -a opencode -a codex -a claude-code
+npx skills add mokronos/skills -s dev-servers -g -y -a opencode -a codex -a claude-code
 npx skills add mokronos/skills -s effect -g -y -a opencode -a codex -a claude-code
 npx skills add mokronos/skills -s effect-setup -g -y -a opencode -a codex -a claude-code
 npx skills add mokronos/skills -s effect-workflows -g -y -a opencode -a codex -a claude-code
