@@ -34,6 +34,7 @@ ln -sfn "$(pwd)/base.AGENTS.md" ~/claude/CLAUDE.md
 ## External Skills
 
 ```bash
+npx skills add cursor/plugins -s unslop -g -y -a opencode -a codex -a claude-code
 npx skills add RhysSullivan/skills -s quality-code -g -y -a opencode -a codex -a claude-code
 npx skills add mattpocock/skills -s domain-modeling -g -y -a opencode -a codex -a claude-code
 npx skills add mattpocock/skills -s grill-me -g -y -a opencode -a codex -a claude-code
