@@ -17,7 +17,7 @@ description: Use whenever starting, reusing, configuring, or troubleshooting a d
 ## Run the right server
 
 - Read the project's instructions and scripts for its dev command, bind options, and required services.
-- Inspect existing listeners and processes before choosing a port. Reuse a healthy server only after confirming that it serves the intended checkout. Preserve the user's existing dev server.
+- Inspect existing listeners and processes before choosing a port. Reuse a healthy server only after confirming that it serves the intended checkout. Never stop a server you did not start.
 - For a worktree, start a separate dev server from that worktree on an available port. Do not reuse a server serving another checkout.
 - On the main device, a loopback listener and `http://localhost:<port>` are appropriate.
 - On another machine, bind to an interface reachable from the main device, commonly `0.0.0.0`, using the framework's supported option. Give the user the host's reachable address, never `0.0.0.0` or `::` as a destination.

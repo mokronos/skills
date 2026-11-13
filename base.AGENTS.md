@@ -12,5 +12,5 @@
 
 ## Dev Server
 
-- Generally, i have a dev server running already, so don't stop that one on the local checkout
+- Never stop a dev server you did not start.
 - If you are on a worktree, always start a new dev server on an available port and give me the link so i can verify changes on worktrees as well
